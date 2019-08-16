@@ -1,0 +1,29 @@
+$ORIGIN thavenius.se.
+$TTL 300
+@ SOA ns1.loopia.se. registry.loopia.se. (
+                                1565961004
+                                3H  ; Refresh after three hours
+                                1H  ; Retry after one hour
+                                1W  ; Expire after one week
+                                1D )    ; Minimum one day TTL
+
+@                               IN      3600    NS      ns3.loopia.se.
+@                               IN      3600    NS      ns4.loopia.se.
+
+@                               IN      3600    A       185.199.108.153
+@                               IN      3600    A       185.199.109.153
+@                               IN      3600    A       185.199.110.153
+@                               IN      3600    A       185.199.111.153
+@                               IN      3600    MX      1 ASPMX.L.GOOGLE.COM.
+@                               IN      3600    MX      5 ALT1.ASPMX.L.GOOGLE.COM.
+@                               IN      3600    MX      5 ALT2.ASPMX.L.GOOGLE.COM.
+@                               IN      3600    MX      10 ALT3.ASPMX.L.GOOGLE.COM.
+@                               IN      3600    MX      10 ALT4.ASPMX.L.GOOGLE.COM.
+@                               IN      3600    TXT     "v=spf1 include:_spf.google.com ~all"
+
+
+www                             IN      3600    A       185.199.108.153
+www                             IN      3600    A       185.199.109.153
+www                             IN      3600    A       185.199.110.153
+www                             IN      3600    A       185.199.111.153
+
